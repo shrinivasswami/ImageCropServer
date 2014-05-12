@@ -12,10 +12,10 @@ public class ImageCropper {
 static Rectangle clip;
  
 public static void main(String args[]) throws Exception {
-String inputFileLocation = "C:/temp/myImage02.jpg";
-String outputFileLocation = "C:/temp/myImage-cropped.jpg";
+String inputFileLocation = "C:/Users/NASA/Desktop/b.jpg";
+String outputFileLocation = "C:/Users/NASA/Desktop/c.jpg";
  
-System.out.println("Reading Original File : " + inputFileLocation);
+System.out.println("Reading Original image  : " + inputFileLocation);
  
 BufferedImage originalImage = readImage(inputFileLocation);
  
@@ -191,8 +191,6 @@ e.printStackTrace();
 * SUPPORT MACHINES, OR WEAPONS SYSTEMS, IN WHICH THE FAILURE OF THE
 * SOFTWARE COULD LEAD DIRECTLY TO DEATH, PERSONAL INJURY, OR SEVERE
 * PHYSICAL OR ENVIRONMENTAL DAMAGE ("HIGH RISK ACTIVITIES"). SANJAAL CORPS
-* SPECIFICALLY DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTY OF FITNESS FOR
-* HIGH RISK ACTIVITIES.
 */
  
 }
